@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> let vs const vs var</title>
+</head>
+<body>
+    
+
+<script>
+    
+console.log("Hello from JavaScript!");
+
+
+// javascript var variable , if you create variable outside of a function,
+// you can use it anywhere in your code.
+
+// if you create variable inside of a function,
+// you can use it  inside only code.
+
+var a = 10
+function f(){
+    var b = 20
+    console.log(a , b)
+}
+f()
+console.log(a)
+//console.log(b)
+
+
+
+console.log("Let variable JavaScript!");
+let x = 10
+function r(){
+    var y = 9
+    console.log(x , y);
+    console.log(x);
+}
+r();
+console.log(x)
+
+
+
+
+
+
+</script>
+</body>
+</html>
