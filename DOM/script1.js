@@ -16,4 +16,14 @@ container.replaceChild(replacementParagraph, oldParagraph);
 container.removeChild(newParagraph);
 
 // Write directly to the document (not recommended after the page has loaded)
-document.write("<p>This is written by document.write</p>");
+// document.write("<p>This is written by document.write</p>");
+
+
+
+const element = document.getElementById("intro");
+
+document.getElementById("demo").innerHTML = 
+"The text from the intro paragraph is: " + element.innerHTML;
+
+
+document.write("<h1>This is written by document.write</h1>");
