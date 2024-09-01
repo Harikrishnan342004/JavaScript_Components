@@ -25,3 +25,10 @@ function myCalculator(num1 , num2 , myCallback)
     myCallback(sum);
 }
 myCalculator(5 ,  5 , myDislayer);
+
+setTimeout(myFunction, 1000);
+
+function myFunction()
+{
+    document.getElementById("emo").innerHTML = "Kavi!!"
+}
